@@ -14,20 +14,22 @@
 
 .right {
   right: 0;
-  background-color: red;
+  background-color: white;
 }
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+section.split.left {
+    background-image: url(images/DSC_6594.jpg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-h1, h3 {
-	float: right;
-	position: relative;
-	display: inline;
 
+section.split.right h3, h1 {
+	text-align: right;
+	font-family: 'Palanquin', sans-serif;
+	font-weight: 100;
+	margin: 0 40px;
 }
+
+
+
