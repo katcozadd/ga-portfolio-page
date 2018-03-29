@@ -1,17 +1,8 @@
-section.about-me p {
-	width: 600px;
-	margin: 15px auto;
-	font-family: 'Palanquin', sans-serif;
-	position: relative;
-}
-
 header nav ul li {
 	list-style-type: none;
 	display: inline;
 	padding: 0 10px;
 	color: white;
-
-
 }
 
 header nav ul li a {
@@ -27,4 +18,67 @@ header nav {
 	background-color: #b48484;
 	padding: 20px 0 10px 0;
 	
+}
+
+h1 {
+    font-family: 'Palanquin', sans-serif;
+    text-transform: lowercase;
+    padding: 0 0 20px 0;
+}
+
+.form-group {
+	margin: 0 auto;
+    margin-bottom: 1rem;
+    width: 450px;
+    font-family: 'Palanquin', sans-serif;
+
+}
+
+#emailInputField {
+    height: 300px;
+    width: 450px;
+    font-family: 'Palanquin', sans-serif;
+}
+
+main {
+	margin: 15px auto;
+	text-align: center;
+}
+
+.btn.btn-default {
+	border: 1px solid #c2c3c4;
+}
+
+main img {
+	height: 300px;
+	width: auto;
+	margin: 5px 5px 5px 0;
+
+}
+
+#imageContainer {
+	text-align: center;
+}
+
+section.about-me p {
+	width: 600px;
+	margin: 15px auto;
+	font-family: 'Palanquin', sans-serif;
+	position: relative;
+	text-align: left;
+	letter-spacing: 1px;
+}
+
+#profilePic {
+	margin: 0 auto;
+	height: 600px;
+	width: auto; 
+	text-align: center;
+}
+
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    height: 600px;
 }
