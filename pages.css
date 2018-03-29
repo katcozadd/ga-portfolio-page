@@ -1,5 +1,30 @@
 section.about-me p {
-	width: 500px;
-	margin: 0 auto;
+	width: 600px;
+	margin: 15px auto;
 	font-family: 'Palanquin', sans-serif;
+	position: relative;
+}
+
+header nav ul li {
+	list-style-type: none;
+	display: inline;
+	padding: 0 10px;
+	color: white;
+
+
+}
+
+header nav ul li a {
+	color: white;
+	padding: 2px;
+}
+
+header nav ul li a:hover {
+	color: #4d5d71;
+}
+
+header nav {
+	background-color: #b48484;
+	padding: 20px 0 10px 0;
+	
 }

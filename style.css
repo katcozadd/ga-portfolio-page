@@ -60,11 +60,11 @@ section.split.right h4 {
     left: 218px;
     top: 330px;
     font-weight: lighter;
-    color: #4d5d71;
+    color: #b48484;
 }
 
 section.split.right h4:hover {
-	color: #b48484;
+	color: #4d5d71;
 }
 
 section.split.right nav ul li {
